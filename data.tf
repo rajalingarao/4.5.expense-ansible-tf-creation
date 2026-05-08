@@ -19,7 +19,6 @@ data "aws_ami" "ami_info" {
 }
 
 
-
 data "aws_vpc" "default" {
     default = true
 }
